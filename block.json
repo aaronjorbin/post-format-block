@@ -1,0 +1,36 @@
+{
+	"apiVersion": 2,
+	"name": "jorbin/post-format-block",
+	"version": "0.1.0",
+	"title": "Post Format",
+	"category": "design",
+	"description": "Display a post's format",
+	"attributes": {
+		"term": {
+			"type": "string"
+		},
+		"textAlign": {
+			"type": "string"
+		},
+		"separator": {
+			"type": "string",
+			"default": ", "
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"html": false,
+		"color": {
+			"gradients": true,
+			"link": true
+		},
+		"typography": {
+			"lineHeight": true,
+			"fontSize": true,
+			"__experimentalFontWeight": true
+		}
+	},
+	"textdomain": "post-format-block",
+	"style": "wp-block-post-terms",
+	"editorScript": "file:./build/index.js"
+}
