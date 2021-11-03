@@ -1,5 +1,8 @@
 #! /bin/bash -x
 
+# Codespaces and this file Largely stolen from https://github.com/helen/wcus-2021/blob/trunk/.devcontainer/setup.sh
+# Thanks Helen and Thanks GPL! 
+
 SLUG=post-format-block
 PROJECT_TYPE=plugin
 
