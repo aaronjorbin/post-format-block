@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Post Format Block
  * Description:       Adds a Post Format Block as a variation of the core/post-terms block. 
- * Requires at least: 5.9
+ * Requires at least: 5.9-alpha
  * Requires PHP:      7.0
  * Version:           0.1.0
  * Author:            Aaron Jorbin 
