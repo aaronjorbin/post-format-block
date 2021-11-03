@@ -4,7 +4,7 @@
  * Description:       Adds a Post Format Block as a variation of the core/post-terms block. 
  * Requires at least: 5.9-alpha
  * Requires PHP:      7.0
- * Version:           0.1.0
+ * Version:           0.1.1
  * Author:            Aaron Jorbin 
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
